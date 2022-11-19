@@ -10314,17 +10314,17 @@ ul.pagination-layout2 .center-btn a:hover {
 
 .main-banner-box-layout1 .item-sub-title {
   color: #fccc50;
-  margin-bottom: 15px;
-  font-size: 30px;
+  margin-bottom: 30px;
+  font-size: 38px;
   font-weight: 600;
   letter-spacing: 2px;
 }
 
 .main-banner-box-layout1 .item-main-title {
-  font-size: 40px;
+  font-size: 34px;
   color: #ffffff;
   font-weight: 600;
-  line-height: 65px;
+  line-height: 1.5;
 }
 
 @media only screen and (max-width: 1199px) {

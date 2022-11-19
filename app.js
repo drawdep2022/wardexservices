@@ -19,38 +19,6 @@
   }
 
   /*-------------------------------------
-  Pagepiling
-  -------------------------------------*/
-  if ($(window).width() > 991) {
-    if ($('#pagepiling').length) {
-      $('#pagepiling').pagepiling({
-        menu: '#menu',
-        scrollingSpeed: 280,
-        loopBottom: true,
-        afterLoad: function(anchorLink, index) {
-          if ($('#pagepiling-counter').length) {
-            $('.counter-slider').counterUp({
-              delay: 50,
-              time: 5000
-            });
-          }
-        }
-      });
-    }
-  }
-
-  /*-------------------------------------
-  After Load All Content Add a Class In Body
-  -------------------------------------*/
-  $(window).on('load', addNewClass);
-
-  function addNewClass() {
-    $('body').imagesLoaded().done(function(instance) {
-      $('body').addClass('loaded');
-    });
-  }
-
-  /*-------------------------------------
   Intersection Observer
   -------------------------------------*/
   if (!!window.IntersectionObserver) {
@@ -266,24 +234,6 @@
     }
 
     var $isotope;
-    var blogGallerIso = $(".featuredContainer", $container).imagesLoaded(function() {
-      var selectero = $container.find('.isotope-classes-tab .nav-item:first-child').data('filter') || '*';
-
-      $isotope = $(".featuredContainer", $container).isotope({
-        filter: selectero,
-        transitionDuration: "1s",
-        hiddenStyle: {
-          opacity: 0,
-          transform: "scale(0.001)"
-        },
-        visibleStyle: {
-          transform: "scale(1)",
-          opacity: 1
-        }
-      });
-
-      createGalleryPopup(selectero);
-    });
     $container.find(".isotope-classes-tab").on("click", "a", function() {
       var $this = $(this);
       $this
