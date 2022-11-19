@@ -10318,6 +10318,7 @@ ul.pagination-layout2 .center-btn a:hover {
   font-size: 38px;
   font-weight: 600;
   letter-spacing: 2px;
+  line-height: 1.2;
 }
 
 .main-banner-box-layout1 .item-main-title {
@@ -10345,6 +10346,9 @@ ul.pagination-layout2 .center-btn a:hover {
   .main-banner-box-layout1 .item-main-title {
     font-size: 34px;
     line-height: 50px;
+  }
+  .main-banner-box-layout1 .item-sub-title {
+    font-size: 26px;
   }
 }
 
