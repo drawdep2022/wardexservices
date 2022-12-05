@@ -10313,7 +10313,7 @@ ul.pagination-layout2 .center-btn a:hover {
 }
 
 .main-banner-box-layout1 .item-sub-title {
-  color: #fccc50;
+  color: #03112c;
   margin-bottom: 30px;
   font-size: 38px;
   font-weight: 600;
@@ -26211,8 +26211,8 @@ ul.pagination-layout2 .center-btn a:hover {
   left: 0;
   bottom: 0;
   right: 0;
-  background-image: -o-linear-gradient(30deg, #23bbc7  0%, #14b1be  50%);
-  background-image: linear-gradient(60deg, #23bbc7  0%, #14b1be  50%);
+  background-image: -o-linear-gradient(30deg, #69CDFF  0%, #69CDFF  50%);
+  background-image: linear-gradient(60deg, #69CDFF  0%, #69CDFF  50%);
 }
 
 .bg-gradient-layout2 {
